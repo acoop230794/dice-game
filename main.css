@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+
+*{
+    background-color: darkolivegreen;
+    font-family: "IBM Plex Mono";
+    color: white;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.wrapper{
+    position: relative;
+    height: 75vh;
+    width: 50vw;
+    margin-left: 25%;
+    margin-top: 5%;
+    border: orange 3px solid;
+    text-align: center;
+    align-items: center;
+}
+.wrapper button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
